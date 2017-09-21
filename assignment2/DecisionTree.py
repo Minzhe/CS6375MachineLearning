@@ -70,7 +70,7 @@ class DecisionTree(object):
         print('Number of validation attributes = {}'.format(len(list(val_data.columns)[:-1])))
         print('Accuracy of the model on the validation dataset before pruning = {}%\n'.format(acc_val))
         print('Number of testing instances = {}'.format(len(test_data.index)))
-        print('Number of validation attributes = {}'.format(len(list(test_data.columns)[:-1])))
+        print('Number of testing attributes = {}'.format(len(list(test_data.columns)[:-1])))
         print('Accuracy of the model on the testing dataset = {}%\n'.format(acc_test))
 
     def postAccuracy(self, val_data, test_data):
@@ -92,7 +92,7 @@ class DecisionTree(object):
         print('Number of validation attributes = {}'.format(len(list(val_data.columns)[:-1])))
         print('Accuracy of the model on the validation dataset after pruning = {}%\n'.format(acc_val))
         print('Number of testing instances = {}'.format(len(test_data.index)))
-        print('Number of validation attributes = {}'.format(len(list(test_data.columns)[:-1])))
+        print('Number of testing attributes = {}'.format(len(list(test_data.columns)[:-1])))
         print('Accuracy of the model on the testing dataset = {}%\n'.format(acc_test))
 
 
