@@ -18,5 +18,5 @@
 * demo run `python DecisionTree.py -r data_sets1/training_set.csv -t data_sets1/test_set.csv -v data_sets1/validation_set.csv -p 0.2`
 
 ## Result
-![dataset1](dataset1.jpg)
-![dataset2](dataset2.jpg)
+![dataset1](dataset1.png)
+![dataset2](dataset2.png)
